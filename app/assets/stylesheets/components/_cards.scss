@@ -1,0 +1,69 @@
+.cards-title {
+  padding-top: 25px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  margin: 0
+}
+
+.card {
+  margin-top: 20px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+.card-head {
+  height: 150px;
+  background-color: #F8F9FA;
+  position: relative;
+}
+
+.card-picture {
+  width: 100%;
+  background-size: cover;
+  height: 220px;
+}
+
+.card-name {
+  margin-top: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-address {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.card-details {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  display: flex;
+}
+
+.card-more-info {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.card-footer {
+  height: 45px;
+}
+
+.card-actions {
+  padding-top: 10px;
+}
+
+.card-price {
+  padding-left: 10px;
+}
